@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #cfc9c9;
+}
+
+.main {
+  display: flex;
+  margin: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main a{
+  text-decoration: none;
+  color: black;
+}
+
+.main ul {
+  list-style: none;
+  display: flex;
+  margin-left: 10px;
+}
+
+ul li {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #7a7474;
+  font-weight: 600;
+  font-family: cursive;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.right input {
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 10px 8px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.right button {
+  padding: 7px 10px;
+  border: none;
+  border: 1px solid #4bdb4b;
+  color: #4bdb4b;
+  font-size: 15px;
+  border-radius: 0.3rem;
+  font-family: cursive;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.right button:hover {
+  background-color: #4bdb4b;
+  color: #fff;
+}
+
+.right.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert {
+  padding: .7rem 1.5rem;
+  font-size: 1.3rem;
+  font-family: cursive;
+  display: block;
+}
+
+.alert p {
+  display: flex;
+  position: relative;
+}
+
+.alert strong {
+  margin: 0px 5px;
+}
+
+.alert span {
+  margin: 1px 15px;
+}
+
+.alert .icon {
+  align-self: center;
+  position: absolute;
+  right: 5px;
+  cursor: pointer;
+}
+
+.Success {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.Danger {
+  color: #721c24;
+  background-color: #f8d7da;
+}
+
+.Warning {
+  color: #856404;
+  background-color: #fff3cd;
+}
+
+.Info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+}
+
+.textSection {
+  display: flex;
+}
+
+.formContainer {
+  margin: 10px 50px;
+  margin-top: 10px;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TextHeading {
+  align-self: flex-start;
+  color: #43eb43;
+  margin: 5px;
+  margin-left: 5px;
+  font-family: cursive;
+}
+
+.TextForm .textarea {
+  width: 50vw;
+  border-radius: 0.5rem;
+  padding: 15px;
+  font-size: 20px;
+  background-color: #383636;
+  color: #4bdb4b;
+  z-index: -1;
+  outline: none;
+  border: none;
+}
+
+.textActions {
+  display: flex;
+  align-self: flex-start;
+  padding: 4px;
+}
+
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  font-family: cursive;
+  margin-top: 5px;
+  background-color: #4bdb4b;
+  border: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  align-self: flex-start;
+  cursor: pointer;
+  color: #fff;
+  margin-right: 7px;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.textInfo {
+  margin: 20px 0px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #dbd7d7;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.TextSummary {
+  font-family: cursive;
+  align-self: center;
+}
+
+.textInfo h3{
+  font-family: cursive;
+  text-align: center;
+
+}
+
+.wordsChar {
+  padding: 15px 20px;
+}
+
+.para {
+  margin: 5px 12px;
+}
+
+.textHighlighted {
+  color: #43eb43;
+  font-weight: 700;
+  font-family: cursive;
+  font-size: 19px;
+  margin-right: 4px;
+}
+
+.colorTemplate {
+  background-color: #000;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.black {
+  background-color: #000;
+  color: #0dd60d;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.activeTemplate{
+  width: 30px;
+  height: 30px;
+}
+
+.aboutContainer{
+  background-color:#383636;
+  color: white;
+  margin: 1.5rem auto;
+  border-radius: 0.5rem;
+  padding: 20px;
+  width: 60vw;
+}
+
+.aboutTitle{
+  font-family: cursive;
+  margin-left: 10px;
+}
+
+.dropDown{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #fff;
+  position: relative;
+  padding: 10px 5px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.aboutText{
+  margin-left: 15px;
+}
+
+.icon{
+  margin-right: 20px;
+}

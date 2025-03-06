@@ -1,0 +1,68 @@
+#FFFFFF - White
+White
+
+#F6F6F6
+Light Gray
+
+#F0F0F0
+Light Gray
+
+#E0E0E0
+Light Gray
+
+#C2C2C2
+Gray
+
+#A3A3A3
+Gray
+
+#858585
+Gray
+
+#666666
+Dark Gray
+
+#4D4D4D
+Dark Gray
+
+#333333 - Black
+Black
+
+#1A1A1A
+Black
+
+#0A0A0A
+Black
+
+#000000 - Black
+Black
+
+#E6FBFF
+Light Blue
+
+#CCF7FE
+Light Blue
+
+#99EEFD
+Light Blue
+
+#66E6FC
+Light Blue
+
+#33DDFB
+Light Blue
+
+#00D5FA - Blue
+Blue
+
+#00A0BC - Dark Blue
+Dark Blue
+
+#006B7D - Teal
+Teal
+
+#00353F - Dark Teal
+Dark Teal
+
+#001519 - Very Dark Teal
+Very Dark Teal

@@ -1,0 +1,26 @@
+:root {
+    background-color: #dbd5d5; /* lightMode : background.alt*/
+    background-color: #F6F6F6; /* lightMode : background.default*/
+    background-color: #f0f0f0; /* lightMode : neutral.light*/
+    background-color: #E0E0E0; /* darkMode : neutral.dark*/
+    background-color: #C2C2C2; /* darkMode : neutral.main*/
+    background-color: #A3A3A3; /* darkMode : neutral.mediumMain*/  /* lightMode : neutral.medium*/
+    background-color: #858585; /* darkMode : neutral.medium*/  /* lightMode : neutral.mediumMain*/
+    background-color: #666666; /* lightMode : neutral.main*/
+    background-color: #4D4D4D;
+    background-color: #333333; /* darkMode : neutral.light*/  /* lightMode : neutral.dark*/
+    background-color: #1A1A1A; /* darkMode : background.alt*/
+    background-color: #0A0A0A; /* darkMode : background.default*/
+    background-color: #000000;
+
+    background-color: #E6FBFF; /* lightMode : primary.light*/
+    background-color: #CCF7FE;
+    background-color: #99EEFD; /* darkMode : primary.dark*/
+    background-color: #66E6FC;
+    background-color: #33DDFB;
+    background-color: #00D5FA; /* darkMode : primary.main*/  /* lightMode : primary.main*/
+    background-color: #00A0BC;
+    background-color: #006B7D; /* lightMode : primary.dark*/
+    background-color: #00353F; /* darkMode : primary.light*/
+    background-color: #001519;
+}
